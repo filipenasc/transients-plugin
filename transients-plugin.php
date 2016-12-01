@@ -19,3 +19,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Integração RD Station. If not, see https://www.gnu.org/licenses/gpl-2.0.html.
 */
+
+include_once( plugin_dir_path( __FILE__ ) . 'updater.php');
+
+$updater = new Plugin_Updater( __FILE__ );
+$updater->set_username( 'filipenasc' );
+$updater->set_repository( 'transients-plugin' );
+$updater->initialize();
