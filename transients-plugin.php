@@ -3,7 +3,7 @@
 /*
 Plugin Name: 	Transients Plugin
 Description:  Testing deployment of WordPress Plugins with Transient
-Version:      0.0.1
+Version:      0.0.3
 Author:       Filipe Nascimento
 Author URI:   http://resultadosdigitais.com.br
 License:      GPL2
